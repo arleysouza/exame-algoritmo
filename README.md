@@ -15,8 +15,8 @@ console.log(`Quantidade de alimentos: ${foods.length}`);
 ```
 Use o comando `npm run exemplo1`, visto que este comando executa o comando `node ./src/exemplo1.js` que está na propriedade `scripts` do `package.json`.
 
-__Exemplo 2__ - O arquivo `src/exemplo2.js` possui o código para ler os parâmetros passados pela linha de comando. Por exemplo o comando `npm run exemplo2 Maria` pegará o parâmetro _Maria_.
-A propriedade `process.argv` pega os parâmetros do comando. No comando `node ./src/exemplo2.js Ana Maria Silva` a propriedade `process.argv` terá o seguinte array:
+__Exemplo 2__ - O arquivo `src/exemplo2.js` possui o código para ler os parâmetros passados pela linha de comando.
+A propriedade `process.argv` pega os parâmetros do comando. Como exemplo, no comando `node ./src/exemplo2.js Ana Maria Silva` a propriedade `process.argv` terá o seguinte array:
 ```
 [
   'C:\\Program Files\\nodejs\\node.exe',
@@ -39,7 +39,7 @@ if (process.argv.length > 2) {
 
 
 ### Exercícios
-Cada exercício vale 2 pts.
+Cada exercício vale 2,5 pts.
 
 
 __Exercício 1__ - Codifique no arquivo `src/um.js` um programa para listar a __descrição__ e a __categoria__ de cada alimento do array que está no arquivo __foods.json__.
