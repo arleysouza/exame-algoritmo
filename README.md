@@ -48,7 +48,7 @@ Dicas:
 - Use a estrutura de repetição _for_ para percorrer o array.
 
 
-__Exercício 2__ - Codifique no arquivo `src/dois.js` um programa que recebe recebe alguns números por parâmetro e imprime no console o somatório desses números.
+__Exercício 2__ - Codifique no arquivo `src/dois.js` um programa que recebe alguns números por parâmetro e imprime no console o somatório desses números.
 
 Resultado esperado para `npm run dois 3 2 5`:
 ```
@@ -65,7 +65,7 @@ Somatório: 0
 Dicas:
 - Percorrer o array acessando as propriedades _description_ e _category_. A __categoria__ está na propriedade _name_ no objeto que está na propriedade _category_;
 - Use a estrutura de repetição _for_ para percorrer o array que está na propriedade `process.argv`;
-- converta para inteirdo cada elemento do array que está na propriedade `process.argv`;
+- converta para inteiro cada elemento do array que está na propriedade `process.argv`;
 - Acumule em uma variável cada valor convertido para inteiro.
 
 
@@ -77,7 +77,7 @@ Somatório: 116606
 ```
 Dicas:
 - Use a estrutura de repetição _for_ para percorrer o array;
-- Percorrer o array acessando a propriedade _value_ do JSON que está na propriedade _energy_ de cada elemento do array;
+- Percorra o array acessando a propriedade _value_ do JSON que está na propriedade _energy_ de cada elemento do array;
 - Acumule numa variável o valor da propriedade _energy.value_.
 
 
